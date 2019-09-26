@@ -1,0 +1,39 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .wp-block-wccpt-iconblock {
+     width: 100%;
+     position: relative;
+
+ }
+ .wp-block-wccpt-iconblock .inner-wrap{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .wp-block-wccpt-iconblock.center {
+    text-align: center;
+    padding-bottom: 100%;
+ }
+ .wp-block-wccpt-iconblock.left,  .wp-block-wccpt-iconblock.right{
+     display: flex;
+     align-items: center;
+     padding-bottom: 0;
+     justify-content: flex-start;
+ }
+ .wp-block-wccpt-iconblock.left .inner-wrap{
+   position: relative;
+   flex-direction: row;
+ }
+ .wp-block-wccpt-iconblock.right .inner-wrap{
+   position: relative;
+   flex-direction: row-reverse;
+ }

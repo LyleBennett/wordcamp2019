@@ -1,0 +1,51 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.wp-block-wccpt-iconblock {
+  width: 100%;
+  position: relative; }
+
+.wp-block-wccpt-iconblock .inner-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 0.5em; }
+
+.wp-block-wccpt-iconblock.aligncenter {
+  text-align: center;
+  padding-bottom: 100%; }
+
+.wp-block-wccpt-iconblock.alignleft, .wp-block-wccpt-iconblock.alignright {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-bottom: 0;
+  -ms-flex-pack: start;
+      justify-content: flex-start; }
+
+.wp-block-wccpt-iconblock.alignleft .inner-wrap {
+  position: relative;
+  -ms-flex-direction: row;
+      flex-direction: row; }
+
+.wp-block-wccpt-iconblock.alignright .inner-wrap {
+  position: relative;
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
